@@ -12,7 +12,7 @@ def index():
 
 @app.route('/currency', methods=['GET'])
 def currency():
-    query = request.args.get('country')  # Getting the country name from the search form
+    query = request.args.get('country')
     url = 'https://search.daum.net/search?nil_suggest=btn&w=tot&DA=SBC&q=환율{}'.format(query)
     
     options = webdriver.EdgeOptions()
