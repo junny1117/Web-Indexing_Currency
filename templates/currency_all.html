@@ -103,6 +103,7 @@
           <th>매매기준율</th>
           <th>등락</th>
           <th>등락(%)</th>
+          <th>자세히보기</th>
         </tr>
       </thead>
       <tbody>
@@ -113,6 +114,7 @@
           <td>{{ item.rate }}</td>
           <td>{{ item.gap }}</td>
           <td>{{ item.gap_percent }}</td>
+          <td><a href="{{ url_for('currency', country=item.country) }}">자세히보기</a></td>
         </tr>
         {% endfor %}
       </tbody>
