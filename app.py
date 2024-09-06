@@ -10,7 +10,7 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/currency', methods=['GET'])
+@app.route('/currency', methods=['GET', 'POST'])
 def currency():
     query = request.args.get('country')
     url = 'https://search.daum.net/search?nil_suggest=btn&w=tot&DA=SBC&q=환율{}'.format(query)
@@ -39,7 +39,7 @@ def currency():
 
     app_data2 = {
         "country": country,
-        "rate": rate,
+        "rate": float(rate.replace(',', '')), 
         "gap": gap,
         "gap_percent": gap_percent,
         "buy": buy,
@@ -49,9 +49,16 @@ def currency():
         "time": time_info
     }
 
+    exchanged_amount = None
+
+    if request.method == 'POST':
+        amount = float(request.form['amount'])
+        exchanged_amount = amount * app_data2["rate"]
+
     driver.quit()
-        
-    return render_template('currency.html', app=app_data2)
+    
+    return render_template('currency.html', app=app_data2, exchanged_amount=exchanged_amount)
+
 
 @app.route('/currency_all')
 def currency_all():
