@@ -12,3 +12,8 @@ Selenium 활용 웹 크롤링을 통한 환율 정보 사이트 Flask를 활용�
 ### currency.html - 특정 국가 환율 조회 페이지 템플릿
 ### currency_all.html - 전체 국가 환율 조회 페이지 템플릿
 ### index.html - 메인 페이지 템플릿
+
+## 실행 결과
+![image](https://github.com/user-attachments/assets/74bb745b-239f-41af-9d9c-0045b2bca7ab)
+![image](https://github.com/user-attachments/assets/dbf65598-b724-48b6-aa5b-7463b1c6e106)
+![image](https://github.com/user-attachments/assets/3d77b467-ca1a-4fdf-a7e4-fce8c308c890)
