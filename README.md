@@ -18,6 +18,12 @@
 ### currency_all.html - 전체 국가 환율 조회 페이지 템플릿
 ### index.html - 메인 페이지 템플릿
 
+## 실행 방법
+1. 프로젝트 클론: `git clone https://github.com/junny1117/Events-Detection-from-CCTV-Video`
+2. 필요한 패키지 설치: `pip install -r requirements.txt`
+3. Flask 서버 실행: `flask run`
+4. 브라우저에서 `127.0.0.1:5000`으로 접속
+
 ## 실행 결과
 ![image](https://github.com/user-attachments/assets/74bb745b-239f-41af-9d9c-0045b2bca7ab)
 ![image](https://github.com/user-attachments/assets/dbf65598-b724-48b6-aa5b-7463b1c6e106)
