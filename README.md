@@ -11,6 +11,7 @@
 ## 크롤링 사이트 
 - 특정 국가 환율 조회: 다음 검색 - 환율+국가명 [예시](https://search.daum.net/search?nil_suggest=btn&w=tot&DA=SBC&q=환율미국)
 - 전체 국가 환율 조회: [네이버 페이 증권 - 환율](https://m.stock.naver.com/marketindex/home/exchangeRate/exchange#exchange)
+
 ## 파일 설명
 ### app.py - Flask 애플리케이션 파일, 크롤링 및 템플릿 랜더링 수행
 ### currency.html - 특정 국가 환율 조회 페이지 템플릿
