@@ -8,7 +8,7 @@ Selenium 활용 웹 크롤링을 통한 환율 정보 사이트 Flask를 활용�
 - **전체 국가 환율 조회**: 사용자가 메인 페이지에서 전체국가 환율 보기를 클릭하면, 모든 국가의 환율 정보를 웹에서 크롤링해 테이블 형태로 보여주고 국가별로 더 많은 정보를 볼 수 있는 페이지로의 이동 기능 제공
 
 ## 크롤링 사이트 
-- 특정 국가 환율 조회: 다음 검색 - 환율+국가명 [예시](https://junny1117.github.io/seoulair)
+- 특정 국가 환율 조회: 다음 검색 - 환율+국가명 [예시](https://search.daum.net/search?nil_suggest=btn&w=tot&DA=SBC&q=환율미국)
 - 전체 국가 환율 조회: [네이버 페이 증권 - 환율](https://m.stock.naver.com/marketindex/home/exchangeRate/exchange#exchange)
 ## 파일 설명
 ### app.py - Flask 애플리케이션 파일, 크롤링 및 템플릿 랜더링 수행
