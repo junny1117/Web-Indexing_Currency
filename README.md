@@ -19,7 +19,7 @@
 ### index.html - 메인 페이지 템플릿
 
 ## 실행 방법
-1. 프로젝트 클론: `git clone https://github.com/junny1117/Events-Detection-from-CCTV-Video`
+1. 프로젝트 클론: `git clone https://github.com/junny1117/Web-Indexing_Currency`
 2. 필요한 패키지 설치: `pip install -r requirements.txt`
 3. Flask 서버 실행: `flask run`
 4. 브라우저에서 `127.0.0.1:5000`으로 접속
