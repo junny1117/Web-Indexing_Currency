@@ -17,6 +17,7 @@
 ### currency.html - 특정 국가 환율 조회 페이지 템플릿
 ### currency_all.html - 전체 국가 환율 조회 페이지 템플릿
 ### index.html - 메인 페이지 템플릿
+### requirements.txt - 실행에 필요한 패키지 목록
 
 ## 실행 방법
 1. 프로젝트 클론: `git clone https://github.com/junny1117/Web-Indexing_Currency`
