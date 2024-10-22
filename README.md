@@ -21,7 +21,7 @@
 - **Python**: 개발언어
 - **Selenium**: 웹 크롤링
 - **Flask**: 웹 기반 인터페이스
-- **HTML, CSS**: 웹패이지 템플릿
+- **HTML, CSS, Bootstrap**: 웹패이지 템플릿
 - **Visual Studio Code**: 코드 작성
 - **Windows**: 운영체제
 
