@@ -41,6 +41,9 @@
 4. 브라우저에서 `127.0.0.1:5000`으로 접속
 
 ## 실행 결과
-![image](https://github.com/user-attachments/assets/74bb745b-239f-41af-9d9c-0045b2bca7ab)
-![image](https://github.com/user-attachments/assets/dbf65598-b724-48b6-aa5b-7463b1c6e106)
-![image](https://github.com/user-attachments/assets/3d77b467-ca1a-4fdf-a7e4-fce8c308c890)
+![스크린샷 2024-10-22 113414](https://github.com/user-attachments/assets/04f5ae9e-4bf2-4092-8784-5230cacb98fa)
+![스크린샷 2024-10-22 113526](https://github.com/user-attachments/assets/08189d71-255b-4752-a208-3f5ceac16012)
+![스크린샷 2024-10-22 113631](https://github.com/user-attachments/assets/6a1ef63f-2587-4996-b2ee-2a5c2e5153ea)
+
+
+
